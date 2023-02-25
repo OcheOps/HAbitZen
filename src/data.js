@@ -1,11 +1,11 @@
 const weekdays = {
-    SATURDAY: 'شنبه',
-    SUNDAY: 'یکشنبه',
-    MONDAY: 'دوشنبه',
-    TUESDAY: 'سه شنبه',
-    WEDNESDAY: 'چهارشنبه',
-    THURSDAY: 'پنج شنبه',
-    FRIDAY: 'جمعه',
+    SATURDAY: 'Saturday',
+    SUNDAY: 'Sunday',
+    MONDAY: 'Monday',
+    TUESDAY: 'Tuesday',
+    WEDNESDAY: 'Wednesday',
+    THURSDAY: 'Thursday',
+    FRIDAY: 'Friday',
 };
 const colors = {
     darkGreen: 'bg-darkGreen',
