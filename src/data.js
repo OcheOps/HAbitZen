@@ -21,12 +21,12 @@ const colors = {
 }
 
 const categories = [
-    {"id": 1, "type": "activity", "name": "سلامت"},
-    {"id": 2, "type": "users", "name": "روابط"},
+    {"id": 1, "type": "activity", "name": "Health"},
+    {"id": 2, "type": "users", "name": "Contacts"},
     {"id": 3, "type": "book-open", "name": "تحصیل"},
-    {"id": 4, "type": "monitor", "name": "کار"},
-    {"id": 5, "type": "dribbble", "name": "تفریح"},
-    {"id": 6, "type": "award", "name": "مهارت"},
+    {"id": 4, "type": "monitor", "name": "work"},
+    {"id": 5, "type": "dribbble", "name": "Fun"},
+    {"id": 6, "type": "award", "name": "Skills"},
     {"id": 7, "type": "home", "name": "امورخانه"},
     {"id": 8, "type": "dollar-sign", "name": "مالی"}
 ];
