@@ -4,7 +4,7 @@
             <button @click="createHabit()">
                 <vue-feather type="plus" class="h-6 w-6"></vue-feather>
             </button>
-            <h1 class="text-xl font-bold">فهرست عادت ها</h1>
+            <h1 class="text-xl font-bold">Lists of Habits</h1>
             <button @click="goBack()">
                 <vue-feather type="x" class="h-6 w-6"></vue-feather>
             </button>
