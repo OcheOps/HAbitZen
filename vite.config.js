@@ -17,9 +17,9 @@ export default defineConfig({
       },
       includeAssets: ['favicon.ico', 'apple-touch-icon.png', 'masked-icon.svg'],
       manifest: {
-        name: 'Adatyar',
-        short_name: 'Adatyar',
-        description: 'Adatyar is a habit tracker PWA web application that helps you create and track your habits.',
+        name: 'HabitZen',
+        short_name: 'HabitZen',
+        description: 'HabitZen is a habit tracker PWA web application that helps you create and track your habits.',
         theme_color: '#9cca31',
         icons: [
           {
