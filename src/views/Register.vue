@@ -5,8 +5,8 @@
             <p class="text-silver font-bold text-3xl">عادت یار</p>
         </div>
         <div class="fixed bottom-5 left-0 right-0 mx-5">
-            <p class="text-silver text-center text-sm">برای شروع، برنامه عاداتت رو بساز</p>
-            <button @click="setCategory()" class="bg-avocado py-3 mt-4 w-full rounded-3xl text-white font-bold tracking-wide shadow-md">ساخت برنامه</button>
+            <p class="text-silver text-center text-sm">To start, create your habit plan</p>
+            <button @click="setCategory()" class="bg-avocado py-3 mt-4 w-full rounded-3xl text-white font-bold tracking-wide shadow-md">Build the Program</button>
         </div>
     </div>
 </template>
