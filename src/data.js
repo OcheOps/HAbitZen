@@ -23,7 +23,7 @@ const colors = {
 const categories = [
     {"id": 1, "type": "activity", "name": "Health"},
     {"id": 2, "type": "users", "name": "Contacts"},
-    {"id": 3, "type": "book-open", "name": "تحصیل"},
+    {"id": 3, "type": "book-open", "name": "DWK"},
     {"id": 4, "type": "monitor", "name": "work"},
     {"id": 5, "type": "dribbble", "name": "Fun"},
     {"id": 6, "type": "award", "name": "Skills"},
@@ -54,24 +54,24 @@ const icons = [
 const habits = [
     {
         "id": 1,
-        "title": "مسواک بزنم",
+        "title": "Brush my teeth",
         "categoryId": 1,
         "type": "check",
-        "categoryName": "سلامت"
+        "categoryName": "Health"
     },
     {
         "id": 2,
-        "title": "ورزش کنم",
+        "title": "Exercise",
         "categoryId": 1,
         "type": "check",
-        "categoryName": "سلامت"
+        "categoryName": "Health"
     },
     {
         "id": 3,
-        "title": "وزنمو کنترل کنم",
+        "title": "Control my Weight",
         "categoryId": 1,
         "type": "check",
-        "categoryName": "سلامت"
+        "categoryName": "Health"
     },
     {
         "id": 4,

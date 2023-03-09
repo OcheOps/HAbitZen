@@ -1,6 +1,6 @@
 <template>
     <div class="flex flex-col text-center h-vh bg-stone-200 text-silver dark:bg-gunmetal">
-        <Toolbar :title="'عادت های امروز'"/>
+        <Toolbar :title="'Todays Habit '"/>
         <div class="h-vh mx-6 flex flex-col justify-center">
         <div class="habit-list flex flex-col items-center bg-white text-silver w-full h-full px-5 shadow-md dark:bg-charcoal pt-2 pb-5 my-22 rounded-3xl overflow-y-auto overflow-x-hidden">
             <section dir="rtl" v-for="habit in todayHabits" :key="habit.id" :class="habit.color"
