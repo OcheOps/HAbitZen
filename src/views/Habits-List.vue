@@ -1,6 +1,6 @@
 <template>
     <div class="flex flex-col text-center h-vh bg-stone-200 text-silver dark:bg-gunmetal">
-        <Toolbar :title='"لیست عادت ها"' />
+        <Toolbar :title='"Lists of Habits"' />
         <div class="flex flex-col justify-center h-vh mx-6 ">
             <section class="flex flex-col items-center w-full h-full bg-white text-silver dark:bg-charcoal dark:text-white py-4 rounded-3xl shadow-md overflow-y-auto overflow-x-hidden my-22">
                 <div class="month grid grid-cols-3 gap-28 items-center justify-items-center mb-3">
