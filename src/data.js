@@ -99,7 +99,7 @@ const habits = [
         "title": " به گیاه ها آب بدم",
         "categoryId": 7,
         "type": "droplet",
-        "categoryName": "امورخانه"
+        "categoryName": "Home"
     },
     {
         "id": 8,
