@@ -96,24 +96,24 @@ const habits = [
     },
     {
         "id": 7,
-        "title": " به گیاه ها آب بدم",
+        "title": "Water the plants",
         "categoryId": 7,
         "type": "droplet",
         "categoryName": "Home"
     },
     {
         "id": 8,
-        "title": "قرص ویتامینه بخورم",
+        "title": "Take meds ",
         "categoryId": 1,
         "type": "check",
-        "categoryName": "سلامت"
+        "categoryName":"Health"
     },
     {
         "id": 9,
-        "title": "درصد درآمدمو پس انداز کنم ۲۰",
+        "title": "Save 20% of my income",
         "categoryId": 8,
         "type": "dollar-sign",
-        "categoryName": "مالی"
+        "categoryName": "Financial"
     },
     {
         "id": 10,
