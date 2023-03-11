@@ -28,7 +28,7 @@
                             <p class="font-normal text-xs">{{ habit.description }}</p>
                         </div>
                         <div class="flex flex-col mx-2 font-semibold text-xs shadow-md">
-                            <span v-if="doneHabit[habit.id]" class="bg-avocado text-white p-2 w-24 rounded-lg">انجام شده</span>
+                            <span v-if="doneHabit[habit.id]" class="bg-avocado text-white p-2 w-24 rounded-lg"Done</span>
                             <span v-if="!doneHabit[habit.id]" class="bg-white p-2 w-24 rounded-lg dark:bg-gunmetal dark:text-white">انجام نشده</span>
                         </div>
                     </section>
