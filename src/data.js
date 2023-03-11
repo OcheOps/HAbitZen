@@ -120,14 +120,14 @@ const habits = [
         "title": "30 درصد درآمدمو صرف خواسته هام کنم",
         "categoryId": 8,
         "type": "dollar-sign",
-        "categoryName": "مالی"
+        "categoryName": "Financial"
     },
     {
         "id": 11,
         "title": "50 درصد درآمدمو صرف خواسته هام کنم",
         "categoryId": 8,
         "type": "dollar-sign",
-        "categoryName": "مالی"
+        "categoryName": "Financial"
     },
     {
         "id": 12,
