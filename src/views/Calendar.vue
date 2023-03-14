@@ -1,6 +1,6 @@
 <template>
     <div class="flex flex-col text-center h-vh bg-stone-200 text-silver dark:bg-gunmetal">
-        <Toolbar :title="'نیم نگاه'" />
+        <Toolbar :title="'Half-Look'" />
         <div class="flex flex-col justify-center h-full my-22 mx-6 ">
             <section class="flex flex-col items-center justify-center py-5 rounded-3xl shadow-md bg-white text-silver dark:bg-charcoal dark:text-white h-full">
                 <div class="grid grid-cols-3 gap-28 items-center justify-items-center mb-3">
@@ -30,7 +30,7 @@
                         </div>
                     </div>
                     <div class="flex flex-col items-end">
-                        <div class="text-ss pb-1">:پیشرفت عادت ها</div>
+                        <div class="text-ss pb-1">:Progress Of Habits</div>
                         <div class="flex justify-center flex-row-reverse">
                             <div v-for="item in scoreRange" :key="item.id"
                                 class="flex flex-col mr-2">

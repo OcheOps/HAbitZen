@@ -23,12 +23,12 @@ const colors = {
 const categories = [
     {"id": 1, "type": "activity", "name": "Health"},
     {"id": 2, "type": "users", "name": "Contacts"},
-    {"id": 3, "type": "book-open", "name": "DWK"},
+    {"id": 3, "type": "book-open", "name": "Book"},
     {"id": 4, "type": "monitor", "name": "work"},
     {"id": 5, "type": "dribbble", "name": "Fun"},
     {"id": 6, "type": "award", "name": "Skills"},
-    {"id": 7, "type": "home", "name": "امورخانه"},
-    {"id": 8, "type": "dollar-sign", "name": "مالی"}
+    {"id": 7, "type": "home", "name": "Home"},
+    {"id": 8, "type": "dollar-sign", "name": "Financial"},
 ];
 
 const icons = [
@@ -75,59 +75,59 @@ const habits = [
     },
     {
         "id": 4,
-        "title": "مطالعه کنم",
+        "title": "Read a book",
         "categoryId": 6,
         "type": "book",
-        "categoryName": "مهارت"
+        "categoryName": "Skills"
     },
     {
         "id": 5,
-        "title": "آب بنوشم",
+        "title": "Drink 8 glasses of water",
         "categoryId": 1,
         "type": "droplet",
-        "categoryName": "سلامت"
+        "categoryName": "Health"
     },
     {
         "id": 6,
-        "title": "خونه رو نظافت کنم",
+        "title": "Clean my room",
         "categoryId": 7,
         "type": "home",
-        "categoryName": "امورخانه"
+        "categoryName": "Home"
     },
     {
         "id": 7,
-        "title": " به گیاه ها آب بدم",
+        "title": "Water the plants",
         "categoryId": 7,
         "type": "droplet",
-        "categoryName": "امورخانه"
+        "categoryName": "Home"
     },
     {
         "id": 8,
-        "title": "قرص ویتامینه بخورم",
+        "title": "Take meds ",
         "categoryId": 1,
         "type": "check",
-        "categoryName": "سلامت"
+        "categoryName":"Health"
     },
     {
         "id": 9,
-        "title": "درصد درآمدمو پس انداز کنم ۲۰",
+        "title": "Save 20% of my income",
         "categoryId": 8,
         "type": "dollar-sign",
-        "categoryName": "مالی"
+        "categoryName": "Financial"
     },
     {
         "id": 10,
         "title": "30 درصد درآمدمو صرف خواسته هام کنم",
         "categoryId": 8,
         "type": "dollar-sign",
-        "categoryName": "مالی"
+        "categoryName": "Financial"
     },
     {
         "id": 11,
         "title": "50 درصد درآمدمو صرف خواسته هام کنم",
         "categoryId": 8,
         "type": "dollar-sign",
-        "categoryName": "مالی"
+        "categoryName": "Financial"
     },
     {
         "id": 12,
