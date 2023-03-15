@@ -51,10 +51,9 @@
                 </span>
             </div>
             <div v-if="isVisible"
-                class="modal mx-6 mt-7 p-3 rounded-3xl shadow-md text-center text-stone-600 bg-yellow-green dark:bg-silver dark:text-white">لطفا
-                موارد موردنیاز بالا را انتخاب کن و سپس گزینه افزودن عادت رو بزن</div>
+                class="modal mx-6 mt-7 p-3 rounded-3xl shadow-md text-center text-stone-600 bg-yellow-green dark:bg-silver dark:text-white">Select the required items above and then click Add habit</div>
             <button @click="setCategory()"
-                class="bg-avocado py-3 mx-6 my-6 rounded-3xl text-latte font-bold tracking-wide shadow-md">افزودن</button>
+                class="bg-avocado py-3 mx-6 my-6 rounded-3xl text-latte font-bold tracking-wide shadow-md">Add</button>
         </section>
     </div>
 </template>
