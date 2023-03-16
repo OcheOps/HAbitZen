@@ -21,34 +21,34 @@ const colors = {
 }
 
 const categories = [
-    {"id": 1, "type": "activity", "name": "Health"},
-    {"id": 2, "type": "users", "name": "Contacts"},
-    {"id": 3, "type": "book-open", "name": "Book"},
-    {"id": 4, "type": "monitor", "name": "work"},
-    {"id": 5, "type": "dribbble", "name": "Fun"},
-    {"id": 6, "type": "award", "name": "Skills"},
-    {"id": 7, "type": "home", "name": "Home"},
-    {"id": 8, "type": "dollar-sign", "name": "Financial"},
+    { "id": 1, "type": "activity", "name": "Health" },
+    { "id": 2, "type": "users", "name": "Contacts" },
+    { "id": 3, "type": "book-open", "name": "Book" },
+    { "id": 4, "type": "monitor", "name": "work" },
+    { "id": 5, "type": "dribbble", "name": "Fun" },
+    { "id": 6, "type": "award", "name": "Skills" },
+    { "id": 7, "type": "home", "name": "Home" },
+    { "id": 8, "type": "dollar-sign", "name": "Financial" },
 ];
 
 const icons = [
-    {"type": "book-open"},
-    {"type": "briefcase"},
-    {"type": "dribbble"},
-    {"type": "film"},
-    {"type": "heart"},
-    {"type": "moon"},
-    {"type": "home"},
-    {"type": "monitor"},
-    {"type": "shopping-cart"},
-    {"type": "dollar-sign"},
-    {"type": "check"},
-    {"type": "book"},
-    {"type": "droplet"},
-    {"type": "music"},
-    {"type": "users"},
-    {"type": "edit"},
-    {"type": "globe"}
+    { "type": "book-open" },
+    { "type": "briefcase" },
+    { "type": "dribbble" },
+    { "type": "film" },
+    { "type": "heart" },
+    { "type": "moon" },
+    { "type": "home" },
+    { "type": "monitor" },
+    { "type": "shopping-cart" },
+    { "type": "dollar-sign" },
+    { "type": "check" },
+    { "type": "book" },
+    { "type": "droplet" },
+    { "type": "music" },
+    { "type": "users" },
+    { "type": "edit" },
+    { "type": "globe" }
 ];
 
 const habits = [
@@ -106,7 +106,7 @@ const habits = [
         "title": "Take meds ",
         "categoryId": 1,
         "type": "check",
-        "categoryName":"Health"
+        "categoryName": "Health"
     },
     {
         "id": 9,
@@ -131,10 +131,10 @@ const habits = [
     },
     {
         "id": 12,
-        "title": "زبان بخونم",
+        "title": "Let's study",
         "categoryId": 3,
         "type": "book-open",
-        "categoryName": "تحصیل"
+        "categoryName": "Book"
     },
     {
         "id": 13,
@@ -145,24 +145,24 @@ const habits = [
     },
     {
         "id": 14,
-        "title": "با دوستام وقت بگذرونم",
+        "title": "Spend time with friends",
         "categoryId": 2,
         "type": "users",
-        "categoryName": "روابط"
+        "categoryName": "Relationship"
     },
     {
         "id": 15,
-        "title": "سفر برم",
+        "title": "i will travel",
         "categoryId": 5,
         "type": "briefcase",
-        "categoryName": "تفریح"
+        "categoryName": "Entertainment"
     },
     {
         "id": 16,
-        "title": "به موقع و به اندازه بخوابم",
+        "title": "sleep enough  and on time",
         "categoryId": 1,
         "type": "moon",
-        "categoryName": "سلامت"
+        "categoryName": "Health"
     },
     {
         "id": 17,
@@ -173,49 +173,49 @@ const habits = [
     },
     {
         "id": 18,
-        "title": "تکالیفمو انجام بدم",
+        "title": "Do my homework",
         "categoryId": 3,
         "type": "edit",
-        "categoryName": "تحصیل"
+        "categoryName": "Education"
     },
     {
         "id": 19,
-        "title": "دانش و مهارتمو به روز کنم",
+        "title": "Update my Knowledge and skills",
         "categoryId": 4,
         "type": "book-open",
-        "categoryName": "کار"
+        "categoryName": "Work"
     },
     {
         "id": 20,
-        "title": "خرید های خونه رو انجام بدم",
+        "title": "Do the shooping list",
         "categoryId": 7,
         "type": "shopping-cart",
-        "categoryName": "امورخانه"
+        "categoryName": "Database"
     },
     {
         "id": 21,
-        "title": "آشپزی کنم",
+        "title": "Cook",
         "categoryId": 7,
         "type": "check",
-        "categoryName": "امورخانه"
+        "categoryName": "Database"
     },
     {
         "id": 22,
-        "title": "اطلاعات عمومیمو بالا ببرم",
+        "title": "Upload my general information",
         "categoryId": 6,
         "type": "globe",
-        "categoryName": "مهارت"
+        "categoryName": "skills"
     },
     {
         "id": 23,
-        "title": "بازی کنم",
+        "title": "Play",
         "categoryId": 5,
         "type": "dribbble",
-        "categoryName": "تفریح"
+        "categoryName": "Entertainment"
     }
 ];
 
 
-export  {
-    categories, habits, icons,weekdays,colors
+export {
+    categories, habits, icons, weekdays, colors
 };
