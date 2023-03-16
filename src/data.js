@@ -117,14 +117,14 @@ const habits = [
     },
     {
         "id": 10,
-        "title": "30 درصد درآمدمو صرف خواسته هام کنم",
+        "title": "Spend 30% of my income on what i want to spend",
         "categoryId": 8,
         "type": "dollar-sign",
         "categoryName": "Financial"
     },
     {
         "id": 11,
-        "title": "50 درصد درآمدمو صرف خواسته هام کنم",
+        "title": "spend 50% of my income on what i need to spend",
         "categoryId": 8,
         "type": "dollar-sign",
         "categoryName": "Financial"
@@ -138,10 +138,10 @@ const habits = [
     },
     {
         "id": 13,
-        "title": "ساز بزنم",
+        "title": "Play an instrument",
         "categoryId": 6,
         "type": "music",
-        "categoryName": "مهارت"
+        "categoryName": "Skills"
     },
     {
         "id": 14,
