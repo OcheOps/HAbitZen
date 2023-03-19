@@ -166,10 +166,10 @@ const habits = [
     },
     {
         "id": 17,
-        "title": "کلاس تقویتی برم",
+        "title": "increase your knowledge",
         "categoryId": 3,
         "type": "book",
-        "categoryName": "تحصیل"
+        "categoryName": "Book"
     },
     {
         "id": 18,
