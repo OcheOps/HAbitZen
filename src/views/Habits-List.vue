@@ -41,7 +41,6 @@
 
 <script>
 import { CameraIcon, UserIcon, EnvelopeIcon, ChevronLeftIcon, ChevronRightIcon } from '@heroicons/vue/24/outline'
-import persianDate from 'persian-date'
 import DataStore from '../datastore.js'
 import Toolbar from '../components/Toolbar.vue'
 import Navbar from '../components/Navbar.vue'
@@ -55,7 +54,7 @@ export default {
             weekDays: weekdays,
             doneHabit: [],
             monthCalendar: [],
-            currentWeekDay: new persianDate(),
+            currentWeekDay: new Date(),
             selectedDay: null,
             selectedDate: null
         }
