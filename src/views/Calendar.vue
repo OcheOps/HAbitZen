@@ -48,7 +48,6 @@
 
 <script>
 import { ChevronLeftIcon, ChevronRightIcon, XCircleIcon, CheckCircleIcon, XMarkIcon } from '@heroicons/vue/24/outline'
-import persianDate from 'persian-date'
 
 import DataStore from '../datastore.js'
 import Toolbar from '../components/Toolbar.vue'
@@ -58,7 +57,7 @@ export default {
     name: 'Calender',
     data() {
         return {
-            currentMonth: new persianDate(),
+            currentMonth: new Date(),
             daysInMonth: null,
             days: [],
             habitsList: [],
