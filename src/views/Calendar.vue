@@ -68,7 +68,7 @@ export default {
                 { "low": 21, "high": 40, "color": 'bg-lime-300 dark:text-gunmetal', "mask": "٪۴۰-۲۱" },
                 { "low": 41, "high": 60, "color": 'bg-lime-400 dark:text-gunmetal', "mask": "٪۶۰-۴۱" },
                 { "low": 61, "high": 80, "color": 'bg-lime-500 dark:text-gunmetal', "mask": "٪۸۰-۶۱" },
-                { "low": 81, "high": 100, "color": 'bg-lime-600 dark:text-gunmetal', "mask": "٪۱۰۰-۸۱" }
+                { "low": 81, "high": 100, "color": 'bg-lime-600 dark:text-gunmetal', "mask": "" }
             ]
         }
     },
