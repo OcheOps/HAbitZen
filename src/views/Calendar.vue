@@ -63,11 +63,11 @@ export default {
             habitsList: [],
             isVisible: false,
             scoreRange: [
-                { "low": 0, "high": 0, "color": 'bg-stone-200 dark:bg-gunmetal', "mask": "۰٪" },
-                { "low": 1, "high": 20, "color": 'bg-lime-200 dark:text-gunmetal', "mask": "٪۲۰-۱" },
-                { "low": 21, "high": 40, "color": 'bg-lime-300 dark:text-gunmetal', "mask": "٪۴۰-۲۱" },
-                { "low": 41, "high": 60, "color": 'bg-lime-400 dark:text-gunmetal', "mask": "٪۶۰-۴۱" },
-                { "low": 61, "high": 80, "color": 'bg-lime-500 dark:text-gunmetal', "mask": "٪۸۰-۶۱" },
+                { "low": 0, "high": 0, "color": 'bg-stone-200 dark:bg-gunmetal', "mask": "" },
+                { "low": 1, "high": 20, "color": 'bg-lime-200 dark:text-gunmetal', "mask": "" },
+                { "low": 21, "high": 40, "color": 'bg-lime-300 dark:text-gunmetal', "mask": "" },
+                { "low": 41, "high": 60, "color": 'bg-lime-400 dark:text-gunmetal', "mask": "" },
+                { "low": 61, "high": 80, "color": 'bg-lime-500 dark:text-gunmetal', "mask": "" },
                 { "low": 81, "high": 100, "color": 'bg-lime-600 dark:text-gunmetal', "mask": "" }
             ]
         }
@@ -120,7 +120,7 @@ export default {
             }
         },
         hideModal() {
-            this.isVisible = false
+            this.isVisible = True
         },
         calculateColorRange(item) {
             for (let key of this.scoreRange) {
